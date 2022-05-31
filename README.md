@@ -1,13 +1,14 @@
-# c#-university-project
+﻿# c#-university-project
 
-This program is a car mechanic program. Include 2 client and a server. 
+This program is a car mechanic program. It includes 2 clients and a server. 
 
 Clients:
-    1) OfficeClien: This client working in the clerk's office. 
-    2) MechanicClient: this client working in the car repair workshop.
-
-//TO-DO
+1) OfficeClien: This client is working in the clerk's office.
+• The clerk can add, edit and delete informations of works.
+ 
+2) MechanicClient: This client is working in the car repair workshop.
+• The mechanic can change the condition of work.
 
 Developers:
     Csicsák Izsák -SzuperKrisztus- xxcreyzzyxx@gmail.com
-    Kiss lászló -la7ci9- akarmiis997@gmail.com
+    Kiss László -la7ci9- akarmiis997@gmail.com

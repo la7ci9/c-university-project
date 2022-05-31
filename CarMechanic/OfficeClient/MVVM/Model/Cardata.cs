@@ -26,7 +26,6 @@ namespace OfficeClient.MVVM.Model
             _status = status;
             _problemDescip = problemDescip;
             _intakeDate = intakeDate;
-
         }
     }
 }

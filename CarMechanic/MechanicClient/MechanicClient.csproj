@@ -7,4 +7,17 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="logo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MVVM\ViewModel\" />
+    <Folder Include="MVVM\Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="logo.jpg" />
+  </ItemGroup>
+
 </Project>

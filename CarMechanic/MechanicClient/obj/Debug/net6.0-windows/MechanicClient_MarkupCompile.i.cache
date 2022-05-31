@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\App.xaml
-11407045341
+11121423476
 
-52082775443
+51377263829
 1941905061893
-MainWindow.xaml;
+MVVM\View\MainWindow.xaml;
 
 False
 

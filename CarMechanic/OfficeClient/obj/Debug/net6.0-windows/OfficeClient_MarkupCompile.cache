@@ -1,5 +1,5 @@
 ﻿OfficeClient
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Lacos\source\project\CarMechanic\OfficeClient\App.xaml
 11121423476
 
-6-1738670595
+4-2074290752
 1941905061893
 MVVM\View\MainWindow.xaml;
 
-True
+False
 

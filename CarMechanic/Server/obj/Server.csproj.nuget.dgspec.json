@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lacos\\source\\project\\CarMechanic\\Server\\Server.csproj": {}
+    "D:\\VisualStudio\\c-university-project\\CarMechanic\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lacos\\source\\project\\CarMechanic\\Server\\Server.csproj": {
+    "D:\\VisualStudio\\c-university-project\\CarMechanic\\Common\\CarMechanicLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\Server\\Server.csproj",
-        "projectName": "Server",
-        "projectPath": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\Server\\Server.csproj",
-        "packagesPath": "C:\\Users\\Lacos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\Server\\obj\\",
+        "projectUniqueName": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Common\\CarMechanicLibrary.csproj",
+        "projectName": "CarMechanicLibrary",
+        "projectPath": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Common\\CarMechanicLibrary.csproj",
+        "packagesPath": "C:\\Users\\xxcre\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lacos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xxcre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,6 +50,64 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VisualStudio\\c-university-project\\CarMechanic\\Server\\Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Server\\Server.csproj",
+        "projectName": "Server",
+        "projectPath": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\xxcre\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xxcre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\VisualStudio\\c-university-project\\CarMechanic\\Common\\CarMechanicLibrary.csproj": {
+                "projectPath": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Common\\CarMechanicLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
@@ -57,7 +115,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

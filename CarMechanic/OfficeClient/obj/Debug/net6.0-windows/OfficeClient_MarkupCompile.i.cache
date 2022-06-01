@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Lacos\source\project\CarMechanic\OfficeClient\obj\Debug\net6.0-windows\
+D:\VisualStudio\c-university-project\CarMechanic\OfficeClient\obj\Debug\net6.0-windows\
 OfficeClient
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Lacos\source\project\CarMechanic\OfficeClient\App.xaml
+D:\VisualStudio\c-university-project\CarMechanic\OfficeClient\App.xaml
 11121423476
 
-7-1672227503
-1941905061893
+6-1738670595
+1942030480316
 MVVM\View\MainWindow.xaml;
 
 False

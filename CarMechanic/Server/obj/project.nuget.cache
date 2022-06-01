@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L6400KaWVDe9BVpoqHTYcic7KISVQ2dSqbpW0+sAlZcjbYcf4z/tTZZeqRIzzNPdEYqYGbn1TGOAb52OIxnB2w==",
+  "dgSpecHash": "O4w4N59sSMmvkGeImUQu6x9PCBQSyt1bE3HLwJonTKP7RdcAv/Az/iqolN37BKCzTIWeCNWN6tfGfqnRMXnZyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\Server\\Server.csproj",
+  "projectFilePath": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Server\\Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

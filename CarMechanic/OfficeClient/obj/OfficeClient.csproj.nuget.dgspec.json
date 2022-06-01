@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lacos\\source\\project\\CarMechanic\\OfficeClient\\OfficeClient.csproj": {}
+    "D:\\VisualStudio\\c-university-project\\CarMechanic\\OfficeClient\\OfficeClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lacos\\source\\project\\CarMechanic\\OfficeClient\\OfficeClient.csproj": {
+    "D:\\VisualStudio\\c-university-project\\CarMechanic\\OfficeClient\\OfficeClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\OfficeClient\\OfficeClient.csproj",
+        "projectUniqueName": "D:\\VisualStudio\\c-university-project\\CarMechanic\\OfficeClient\\OfficeClient.csproj",
         "projectName": "OfficeClient",
-        "projectPath": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\OfficeClient\\OfficeClient.csproj",
-        "packagesPath": "C:\\Users\\Lacos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\OfficeClient\\obj\\",
+        "projectPath": "D:\\VisualStudio\\c-university-project\\CarMechanic\\OfficeClient\\OfficeClient.csproj",
+        "packagesPath": "C:\\Users\\xxcre\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio\\c-university-project\\CarMechanic\\OfficeClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lacos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xxcre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

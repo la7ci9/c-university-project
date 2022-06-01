@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CarMechanicLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CarMechanicLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarMechanicLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CarMechanicLibrary/1.0.0": {
+      "type": "project",
+      "path": "../Common/CarMechanicLibrary.csproj",
+      "msbuildProject": "../Common/CarMechanicLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CarMechanicLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Lacos\\.nuget\\packages\\": {}
+    "C:\\Users\\xxcre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\Server\\Server.csproj",
+      "projectUniqueName": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\Server\\Server.csproj",
-      "packagesPath": "C:\\Users\\Lacos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\Server\\obj\\",
+      "projectPath": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Server\\Server.csproj",
+      "packagesPath": "C:\\Users\\xxcre\\.nuget\\packages\\",
+      "outputPath": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lacos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\xxcre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\VisualStudio\\c-university-project\\CarMechanic\\Common\\CarMechanicLibrary.csproj": {
+              "projectPath": "D:\\VisualStudio\\c-university-project\\CarMechanic\\Common\\CarMechanicLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -63,7 +86,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

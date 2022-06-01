@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CarMechanic",
+    "\\CarMechanic\\OfficeClient",
+    "\\CarMechanic\\OfficeClient\\MVVM",
+    "\\CarMechanic\\OfficeClient\\MVVM\\View"
+  ],
+  "SelectedNode": "\\CarMechanic\\OfficeClient\\MVVM\\View\\MainWindow.xaml",
+  "PreviewInSolutionExplorer": false
+}

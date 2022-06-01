@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:28774",
+      "applicationUrl": "http://localhost:54542",
       "sslPort": 0
     }
   },
@@ -12,17 +12,16 @@
     "Server": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "CarMechaic",
-      "applicationUrl": "http://localhost:5129",
-      "environmentVariables": {
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5248",
+      "environmentVariables":{
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "CarMechanic",
+      "launchUrl": "weatherforecast",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

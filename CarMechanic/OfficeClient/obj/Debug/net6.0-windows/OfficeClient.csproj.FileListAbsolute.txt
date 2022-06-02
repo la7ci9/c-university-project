@@ -19,3 +19,4 @@ C:\Users\Lacos\source\project\CarMechanic\OfficeClient\obj\Debug\net6.0-windows\
 C:\Users\Lacos\source\project\CarMechanic\OfficeClient\obj\Debug\net6.0-windows\OfficeClient.pdb
 C:\Users\Lacos\source\project\CarMechanic\OfficeClient\obj\Debug\net6.0-windows\OfficeClient.genruntimeconfig.cache
 C:\Users\Lacos\source\project\CarMechanic\OfficeClient\obj\Debug\net6.0-windows\ref\OfficeClient.dll
+C:\Users\Lacos\source\project\CarMechanic\OfficeClient\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs

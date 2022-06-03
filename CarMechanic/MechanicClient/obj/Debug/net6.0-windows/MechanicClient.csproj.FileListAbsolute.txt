@@ -4,11 +4,9 @@ C:\Users\Lacos\source\project\CarMechanic\MechanicClient\bin\Debug\net6.0-window
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\bin\Debug\net6.0-windows\MechanicClient.dll
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\bin\Debug\net6.0-windows\MechanicClient.pdb
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MechanicClient.csproj.AssemblyReference.cache
-C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MVVM\View\MainWindow.g.cs
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MechanicClient_MarkupCompile.cache
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MechanicClient_MarkupCompile.lref
-C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MVVM\View\MainWindow.baml
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MechanicClient.g.resources
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MechanicClient.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MechanicClient.AssemblyInfoInputs.cache
@@ -19,3 +17,9 @@ C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-window
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MechanicClient.pdb
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MechanicClient.genruntimeconfig.cache
 C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\ref\MechanicClient.dll
+C:\Users\Lacos\source\project\CarMechanic\MechanicClient\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Lacos\source\project\CarMechanic\MechanicClient\bin\Debug\net6.0-windows\WebApi_Common.dll
+C:\Users\Lacos\source\project\CarMechanic\MechanicClient\bin\Debug\net6.0-windows\WebApi_Common.pdb
+C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Lacos\source\project\CarMechanic\MechanicClient\obj\Debug\net6.0-windows\MechanicClient.csproj.CopyComplete

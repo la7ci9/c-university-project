@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "OfficeClient/1.0.0": {
+        "dependencies": {
+          "WebApi_Common": "1.0.0"
+        },
         "runtime": {
           "OfficeClient.dll": {}
+        }
+      },
+      "WebApi_Common/1.0.0": {
+        "runtime": {
+          "WebApi_Common.dll": {}
         }
       }
     }
   },
   "libraries": {
     "OfficeClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebApi_Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

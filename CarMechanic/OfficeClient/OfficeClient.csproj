@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="MVVM\View\logo.jpg" />
+    <ProjectReference Include="..\..\..\..\Downloads\c-university-project-Izsakbranch\c-university-project-Izsakbranch\WebApi_Common\WebApi_Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="MVVM\View\logo.jpg" />
+    <Resource Include="logo.jpg" />
   </ItemGroup>
 
 </Project>

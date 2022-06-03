@@ -1,0 +1,24 @@
+[
+  {
+    "Id": 1,
+    "CustumerName": "KissBéla",
+    "CarName": "Kicsikocsi",
+    "IntakeDate": "2021-02-24T00:00:00",
+    "CarType": "Toyota",
+    "PlateNumber": "XXX-123",
+    "Status": "Kész",
+    "ProblemDescip": "Rossz volt a kocsi"
+  },
+
+  {
+    "Id": 2,
+    "CustumerName": "NagyBrigitta",
+    "CarName": "Nagykocsi",
+    "IntakeDate": "2021-03-24T00:00:00",
+    "CarType": "Mazda",
+    "PlateNumber": "YYY-123",
+    "Status": "Javítás allat",
+    "ProblemDescip": "Nem ment a kocsi"
+  }
+
+]

@@ -17,6 +17,7 @@ namespace OfficeClient
         public MainWindow()
         {
             InitializeComponent();
+            UpdateWorkListView();
         }
 
         private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs args)
@@ -43,7 +44,7 @@ namespace OfficeClient
         {
                 _cardata = new Cardata();
                 AddButton.Visibility = Visibility.Visible;
-                EditButton.Visibility = Visibility.Collapsed;
+                EditButton.Visibility = Visibility.Collapsed;    //Csak kattintás után rejti el a gombokat JAVÍTANI!!
                 DeleteButton.Visibility = Visibility.Collapsed;
         
             if (ValidateFields.FieldsNotEmpty(CustomerName.Text, CarName.Text, CarType.Text, PlateNumber.Text, ProblemDescription.Text))

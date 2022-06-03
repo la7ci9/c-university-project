@@ -53,8 +53,8 @@
     },
     "WebApi_Common/1.0.0": {
       "type": "project",
-      "path": "../../../../Downloads/c-university-project-Izsakbranch/c-university-project-Izsakbranch/WebApi_Common/WebApi_Common.csproj",
-      "msbuildProject": "../../../../Downloads/c-university-project-Izsakbranch/c-university-project-Izsakbranch/WebApi_Common/WebApi_Common.csproj"
+      "path": "../WebApi_Common/WebApi_Common.csproj",
+      "msbuildProject": "../WebApi_Common/WebApi_Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -90,8 +90,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Lacos\\Downloads\\c-university-project-Izsakbranch\\c-university-project-Izsakbranch\\WebApi_Common\\WebApi_Common.csproj": {
-              "projectPath": "C:\\Users\\Lacos\\Downloads\\c-university-project-Izsakbranch\\c-university-project-Izsakbranch\\WebApi_Common\\WebApi_Common.csproj"
+            "C:\\Users\\Lacos\\source\\project\\CarMechanic\\WebApi_Common\\WebApi_Common.csproj": {
+              "projectPath": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\WebApi_Common\\WebApi_Common.csproj"
             }
           }
         }

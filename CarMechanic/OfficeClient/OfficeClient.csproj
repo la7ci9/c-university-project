@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Downloads\c-university-project-Izsakbranch\c-university-project-Izsakbranch\WebApi_Common\WebApi_Common.csproj" />
+    <ProjectReference Include="..\WebApi_Common\WebApi_Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>

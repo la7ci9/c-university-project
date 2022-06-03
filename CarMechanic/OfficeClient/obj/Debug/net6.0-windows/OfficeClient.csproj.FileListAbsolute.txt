@@ -22,3 +22,4 @@ C:\Users\Lacos\source\project\CarMechanic\OfficeClient\bin\Debug\net6.0-windows\
 C:\Users\Lacos\source\project\CarMechanic\OfficeClient\bin\Debug\net6.0-windows\WebApi_Common.pdb
 C:\Users\Lacos\source\project\CarMechanic\OfficeClient\obj\Debug\net6.0-windows\OfficeClient.csproj.CopyComplete
 C:\Users\Lacos\source\project\CarMechanic\OfficeClient\obj\Debug\net6.0-windows\OfficeClient_MarkupCompile.lref
+C:\Users\Lacos\source\project\CarMechanic\OfficeClient\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

@@ -22,20 +22,21 @@ namespace OfficeClient
 
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var selectedCarData = WorkListView.SelectedItems as Cardata;
+            var selectedCarData = WorkListView.SelectedItem as Cardata;
 
             if (selectedCarData != null)
             {
+              
                 _cardata = selectedCarData;
-                CustomerName.Text = selectedCarData.Name;
-                CarName.Text = selectedCarData.CarName;
-                CarType.Text = selectedCarData.CarType;
-                PlateNumber.Text = selectedCarData.PlateNumber;
-                ProblemDescription.Text = selectedCarData.ProblemDescip;
+                CustomerName.Text = _cardata.Name;
+                CarName.Text = _cardata.CarName;
+                CarType.Text = _cardata.CarType;
+                PlateNumber.Text = _cardata.PlateNumber;
+                ProblemDescription.Text = _cardata.ProblemDescip;
 
-                AddButton.Visibility = Visibility.Collapsed;
-                EditButton.Visibility = Visibility.Visible;
-                DeleteButton.Visibility = Visibility.Visible;
+                //AddButton.Visibility = Visibility.Collapsed;
+                //EditButton.Visibility = Visibility.Visible;
+                //DeleteButton.Visibility = Visibility.Visible;
 
             }
         }
@@ -43,9 +44,9 @@ namespace OfficeClient
         private void AddWork_Click(object sender, RoutedEventArgs e)
         {
                 _cardata = new Cardata();
-                AddButton.Visibility = Visibility.Visible;
-                EditButton.Visibility = Visibility.Collapsed;    //Csak kattintás után rejti el a gombokat JAVÍTANI!!
-                DeleteButton.Visibility = Visibility.Collapsed;
+                //AddButton.Visibility = Visibility.Visible;
+                //EditButton.Visibility = Visibility.Collapsed;    //Csak kattintás után rejti el a gombokat JAVÍTANI!!
+                //DeleteButton.Visibility = Visibility.Collapsed;
         
             if (ValidateFields.FieldsNotEmpty(CustomerName.Text, CarName.Text, CarType.Text, PlateNumber.Text, ProblemDescription.Text))
             {
@@ -68,6 +69,7 @@ namespace OfficeClient
 
             if (ValidateFields.FieldsNotEmpty(CustomerName.Text, CarName.Text, CarType.Text, PlateNumber.Text, ProblemDescription.Text))
             {
+               
                 _cardata.Name = CustomerName.Text;
                 _cardata.CarName = CarName.Text;
                 _cardata.CarType = CarType.Text;
@@ -77,6 +79,7 @@ namespace OfficeClient
 
                 DataProvider.UpdateCardata(_cardata);
                 UpdateWorkListView();
+                WorkListView.UnselectAll();
             }
         }
 
@@ -95,10 +98,5 @@ namespace OfficeClient
             var cardatas = DataProvider.GetCardata().ToList();
             WorkListView.ItemsSource = cardatas;
         }
-        public enum Statuses
-        {
-            Recorded
-        }
-
     }
 }

@@ -99,6 +99,7 @@ namespace OfficeClient
         {
             //frissíti a listát
             var cardatas = DataProvider.GetCardata().ToList();
+            cardatas = cardatas.OrderBy(x => x.IntakeDate).ToList();
             WorkListView.ItemsSource = cardatas;
         }
 

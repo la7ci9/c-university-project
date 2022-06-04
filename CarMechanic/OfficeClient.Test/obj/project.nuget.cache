@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "X0TtaD3ihnzxfSnjABicpVxucxIKLgstc8KTJ2Gbvgp92oa3bldcTczU0EJ9X2jzW7LN9gIxOf2oGJJsnHcyuQ==",
+  "success": false,
+  "projectFilePath": "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\OfficeClient.Test\\OfficeClient.Test.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OfficeClient is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project OfficeClient supports: net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "OfficeClient",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

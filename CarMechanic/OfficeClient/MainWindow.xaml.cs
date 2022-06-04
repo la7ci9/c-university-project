@@ -20,7 +20,7 @@ namespace OfficeClient
             UpdateWorkListView();
         }
 
-        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs args)
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var selectedCarData = WorkListView.SelectedItems as Cardata;
 
@@ -39,7 +39,7 @@ namespace OfficeClient
 
             }
         }
-
+      
         private void AddWork_Click(object sender, RoutedEventArgs e)
         {
                 _cardata = new Cardata();
@@ -100,5 +100,6 @@ namespace OfficeClient
         {
             Recorded
         }
+
     }
 }

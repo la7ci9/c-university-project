@@ -26,5 +26,10 @@ namespace WebApi_Common.Models
         public string ProblemDescip { get; set; }
         
         public DateTime IntakeDate { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Name} Car:{CarName} {CarType} PN:{PlateNumber} Status:{Status} Problem:{ProblemDescip}";
+        }
     }
 }

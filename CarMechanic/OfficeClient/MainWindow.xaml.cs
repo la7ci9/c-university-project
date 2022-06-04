@@ -61,6 +61,7 @@ namespace OfficeClient
                 //Küldeni a szervernek
                 DataProvider.CreateCardata(_cardata);
                 UpdateWorkListView();
+                removeTextToField();
             }
         }
 
@@ -79,6 +80,7 @@ namespace OfficeClient
 
                 DataProvider.UpdateCardata(_cardata);
                 UpdateWorkListView();
+                removeTextToField();
                 WorkListView.UnselectAll();
             }
         }
@@ -89,6 +91,7 @@ namespace OfficeClient
             {
                 DataProvider.DeleteCardata(_cardata.Id);
                 UpdateWorkListView();
+                removeTextToField();
             }
         }
 
@@ -97,6 +100,15 @@ namespace OfficeClient
             //frissíti a listát
             var cardatas = DataProvider.GetCardata().ToList();
             WorkListView.ItemsSource = cardatas;
+        }
+
+        private void removeTextToField()
+        {
+            CustomerName.Text = "";
+            CarName.Text = "";
+            CarType.Text = "";
+            PlateNumber.Text = "";
+            ProblemDescription.Text = "";
         }
     }
 }

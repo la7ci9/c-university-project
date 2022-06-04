@@ -47,10 +47,11 @@ namespace OfficeClient.CardataProvider
         {
             using (var client = new HttpClient())
             {
+                var currenturl = _url + "/" + cardata.Id;
                 var rawData = JsonConvert.SerializeObject(cardata);
                 var content = new StringContent(rawData, Encoding.UTF8, "application/json");
 
-                var response = client.PutAsync(_url, content).Result;
+                var response = client.PutAsync(currenturl, content).Result;
                 if (!response.IsSuccessStatusCode)
                 {
                     throw new InvalidOperationException(response.StatusCode.ToString());

@@ -26,9 +26,10 @@ namespace MechanicClient
         public MainWindow()
         {
             InitializeComponent();
+
             Status_ComboBox.Items.Add("Process");
             Status_ComboBox.Items.Add("Done");
-            EditButton.Visibility = Visibility.Collapsed;
+            UpdateWorkListView();
         }
         private void EditCommand_Click(object sender, RoutedEventArgs e)
         {
@@ -48,32 +49,20 @@ namespace MechanicClient
 
         }
 
-        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs args)
         {
-            var selectedCarData = WorkListView.SelectedItems as Cardata;
+            var selectedCarData = WorkListView.SelectedItem as Cardata;
 
             if (selectedCarData != null)
             {
                 _cardata = selectedCarData;
-                CustomerName.Text = selectedCarData.Name;
-                CarName.Text = selectedCarData.CarName;
-                CarType.Text = selectedCarData.CarType;
-                PlateNumber.Text = selectedCarData.PlateNumber;
-                ProblemDescription.Text = selectedCarData.ProblemDescip;
-                if (selectedCarData.Status.Equals("Recorded"))
-                {
-                    Status_ComboBox.Text = "Recorded";
-                }
-                else if (selectedCarData.Status.Equals("Process"))
-                {
-                    Status_ComboBox.Text = "Process";
-                }
-                else if (selectedCarData.Status.Equals("Done"))
-                {
-                    Status_ComboBox.Text = "Done";
-                }
+                CustomerName.Text = _cardata.Name;
+                CarName.Text = _cardata.CarName;
+                CarType.Text = _cardata.CarType;
+                PlateNumber.Text = _cardata.PlateNumber;
+                ProblemDescription.Text = _cardata.ProblemDescip;
+                Status_ComboBox.Text = _cardata.Status;
 
-                EditButton.Visibility = Visibility.Visible;
             }
 
         }

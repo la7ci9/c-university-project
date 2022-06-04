@@ -32,9 +32,7 @@ namespace MechanicClient
             UpdateWorkListView();
         }
         private void EditCommand_Click(object sender, RoutedEventArgs e)
-        {
-            if (ValidateFields.FieldsNotEmpty(CustomerName.Text, CarName.Text, CarType.Text, PlateNumber.Text, ProblemDescription.Text))
-            {
+        { 
                 _cardata.Name = CustomerName.Text;
                 _cardata.CarName = CarName.Text;
                 _cardata.CarType = CarType.Text;
@@ -45,8 +43,6 @@ namespace MechanicClient
 
                 DataProvider.UpdateCardata(_cardata);
                 UpdateWorkListView();
-            }
-
         }
 
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs args)
@@ -62,7 +58,6 @@ namespace MechanicClient
                 PlateNumber.Text = _cardata.PlateNumber;
                 ProblemDescription.Text = _cardata.ProblemDescip;
                 Status_ComboBox.Text = _cardata.Status;
-
             }
 
         }

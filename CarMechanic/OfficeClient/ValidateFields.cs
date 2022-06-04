@@ -14,7 +14,7 @@ namespace OfficeClient
         public static bool FieldsNotEmpty(string customerName, string carName, string carType, string plateNumber, string problemDescription)
         {
             bool result = true;
-            if (string.IsNullOrEmpty(customerName) || string.IsNullOrEmpty(carName) || string.IsNullOrEmpty(carType) || string.IsNullOrEmpty(plateNumber) || string.IsNullOrEmpty(problemDescription))
+            if (string.IsNullOrEmpty(customerName) || string.IsNullOrEmpty(carName) || string.IsNullOrEmpty(carType) ||  string.IsNullOrEmpty(plateNumber) || string.IsNullOrEmpty(problemDescription))
             {
                 MessageBox.Show("Fill all the fields");
                 result = false;
@@ -24,7 +24,7 @@ namespace OfficeClient
                 MessageBox.Show("Invalid name in customer name field", "Warning");
                 result = false;
             }
-            else if (!ValidateName(carName))
+            else if (!ValidateCarName(carName))
             {
                 MessageBox.Show("Invalid car name in Car name field", "Warning");
                 result = false;
@@ -36,10 +36,18 @@ namespace OfficeClient
             }
 
             return result;
-            
+
         }
 
         public static bool ValidateName(string name)
+        {
+            Regex check = new Regex(@"^[A-ZŐÚÖÜÓÁŰÉ][a-zöüóúőéáű]*(\s[A-ZŐÚÖÜÓÁŰÉ][a-zöüóúőéáű]*)+$");
+            bool valid = false;
+            valid = check.IsMatch(name);
+            return valid;
+        }
+
+        public static bool ValidateCarName(string name)
         {
             Regex check = new Regex(@"^([A-Z][a-z-A-z]+)$");
             bool valid = false;

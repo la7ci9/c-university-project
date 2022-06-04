@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FyI+b9fastWEvdikuWme3QJIEhZqyZHBNTw0hsA21Y9984f0dBSRnzjmSYagVCMDdP+1cEsVBt4ZCvYxQoj2ww==",
+  "dgSpecHash": "otcSbkbh/hrEvKTA+IMO4ainfm6XUYN++CSsEJhKGuT7ZWxx3pnLG12EiJ64pflH0Fq85v9VTX/WUWgAxQzOHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\OfficeClient\\OfficeClient.csproj",
+  "projectFilePath": "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\OfficeClient\\OfficeClient.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lacos\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\xxcre\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

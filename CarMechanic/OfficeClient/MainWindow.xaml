@@ -8,7 +8,11 @@
         Title="MyMechanic" Height="550" Width="1000" Background="#464baa">
 
     <Grid Margin="1,0,-1,0">
-        <Image HorizontalAlignment="Left" Height="73" Margin="10,10,0,0" VerticalAlignment="Top" Width="195" Source="/MVVM/View/logo.jpg"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="33*"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="73" Margin="10,10,0,0" VerticalAlignment="Top" Width="195" Source="/logo.jpg"/>
         <TextBlock HorizontalAlignment="Left" Margin="27,130,0,0" TextWrapping="Wrap" Foreground="White" 
                    FontFamily="Lucida Sans" VerticalAlignment="Top"><Run Text="Customer "/><Run Language="hu-hu" Text="n"/><Run Text="ame"/><Run Text=":"/></TextBlock>
 
@@ -24,8 +28,8 @@
         <TextBlock HorizontalAlignment="Left" Margin="27,290,0,0" TextWrapping="Wrap" Foreground="White"
                    FontFamily="Lucida Sans" VerticalAlignment="Top"><Run Language="hu-hu" Text="Problem description:"/></TextBlock>
 
-        <TextBlock HorizontalAlignment="Left" Margin="573,38,0,0" TextWrapping="Wrap"  Foreground="White"
-                   FontFamily="Lucida Sans" FontSize="20" VerticalAlignment="Top"><Run Language="hu-hu" Text="Recorded Works"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="233,38,0,0" TextWrapping="Wrap"  Foreground="White"
+                   FontFamily="Lucida Sans" FontSize="20" VerticalAlignment="Top" Grid.Column="1"><Run Language="hu-hu" Text="Recorded Works"/></TextBlock>
 
         <TextBox x:Name="CustomerName" HorizontalAlignment="Left" Margin="27,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
         <TextBox x:Name="CarName" HorizontalAlignment="Left" Margin="27,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
@@ -37,7 +41,7 @@
         <Button x:Name="EditButton" Content="EDIT" Background="#01de01" HorizontalAlignment="Left" FontFamily="Lucida Sans" Margin="237,241,0,0" VerticalAlignment="Top" Height="22" Width="43" Click="EditWork_Click"/>
         <Button x:Name="DeleteButton" Content="DELETE" Background="red" HorizontalAlignment="Left" FontFamily="Lucida Sans" Margin="233,372,0,0" VerticalAlignment="Top" Height="30" Width="51" Click="DeleteWork_Click"/>
 
-        <ListView x:Name="WorkListView"  HorizontalAlignment="Left" Height="430" Margin="338,67,0,0" VerticalAlignment="Top" Width="627" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="ListView_SelectionChanged"/>
+        <ListView x:Name="WorkListView"  HorizontalAlignment="Left" Height="430" Margin="338,67,0,0" VerticalAlignment="Top" Width="627" SelectionChanged="ListView_SelectionChanged" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

@@ -20,18 +20,11 @@ namespace WebApi_Common.Models
         public string PlateNumber { get; set; }
        
         [MaxLength(20)]
-        public Statuses Status { get; set; }
+        public string Status { get; set; }
         
         [MaxLength(200)]
         public string ProblemDescip { get; set; }
         
         public DateTime IntakeDate { get; set; }
-    }
-
-    public enum Statuses
-    {
-        Recorded,
-        Process,
-        Done
     }
 }

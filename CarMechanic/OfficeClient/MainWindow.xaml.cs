@@ -53,7 +53,7 @@ namespace OfficeClient
                 _cardata.CarName = CarName.Text;
                 _cardata.CarType = CarType.Text;
                 _cardata.PlateNumber = PlateNumber.Text;
-                _cardata.Status = (WebApi_Common.Models.Statuses)Statuses.Recorded;
+                _cardata.Status = "Recorded";
                 _cardata.ProblemDescip = ProblemDescription.Text;
                 _cardata.IntakeDate = DateTime.Now;
 
@@ -72,7 +72,6 @@ namespace OfficeClient
                 _cardata.CarName = CarName.Text;
                 _cardata.CarType = CarType.Text;
                 _cardata.PlateNumber = PlateNumber.Text;
-                _cardata.Status = (WebApi_Common.Models.Statuses)Statuses.Recorded;
                 _cardata.ProblemDescip = ProblemDescription.Text;
                 _cardata.IntakeDate = DateTime.Now;
 

@@ -38,7 +38,7 @@ namespace MechanicClient
                 _cardata.CarName = CarName.Text;
                 _cardata.CarType = CarType.Text;
                 _cardata.PlateNumber = PlateNumber.Text;
-                _cardata.Status = (WebApi_Common.Models.Statuses)Statuses.Recorded;
+                _cardata.Status = Status_ComboBox.SelectedValue.ToString();
                 _cardata.ProblemDescip = ProblemDescription.Text;
                 _cardata.IntakeDate = DateTime.Now;
 
@@ -48,7 +48,7 @@ namespace MechanicClient
 
         }
 
-        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var selectedCarData = WorkListView.SelectedItems as Cardata;
 

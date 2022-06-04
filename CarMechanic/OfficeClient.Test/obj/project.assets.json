@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "OfficeClient/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/OfficeClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OfficeClient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OfficeClient/1.0.0": {
+      "type": "project",
+      "path": "../OfficeClient/OfficeClient.csproj",
+      "msbuildProject": "../OfficeClient/OfficeClient.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "OfficeClient >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\xxcre\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\OfficeClient.Test\\OfficeClient.Test.csproj",
+      "projectName": "OfficeClient.Test",
+      "projectPath": "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\OfficeClient.Test\\OfficeClient.Test.csproj",
+      "packagesPath": "C:\\Users\\xxcre\\.nuget\\packages\\",
+      "outputPath": "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\OfficeClient.Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\xxcre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\OfficeClient\\OfficeClient.csproj": {
+              "projectPath": "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\OfficeClient\\OfficeClient.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OfficeClient is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project OfficeClient supports: net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "OfficeClient",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

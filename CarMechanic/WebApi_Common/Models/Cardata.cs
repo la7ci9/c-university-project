@@ -29,7 +29,7 @@ namespace WebApi_Common.Models
 
         public override string ToString()
         {
-            return $"{Name} Car:{CarName} {CarType} PN:{PlateNumber} Status:{Status} Problem:{ProblemDescip}";
+            return $"{Name} | Car: {CarName} - {CarType} | PN: {PlateNumber} | Status: {Status} | Problem: {ProblemDescip}";
         }
     }
 }

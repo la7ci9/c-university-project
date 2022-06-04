@@ -38,6 +38,18 @@
         <TextBlock x:Name="ProblemDescription" HorizontalAlignment="Left" Margin="27,349,0,0" Background="White" Foreground="Black" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Height="138"/>
         <ComboBox x:Name="Status_ComboBox" HorizontalAlignment="Left" Margin="27,304,0,0" VerticalAlignment="Top" Width="170" Height="24"/>
 
-        <ListView x:Name="WorkListView"  HorizontalAlignment="Left" Height="430" Margin="338,67,0,0" VerticalAlignment="Top" Width="627" SelectionChanged="ListView_SelectionChanged"/>
+        <ListView x:Name="WorkListView" ItemsSource="{Binding cardatas}" HorizontalAlignment="Left" Height="430" Margin="338,67,0,0" VerticalAlignment="Top" Width="627" SelectionChanged="ListView_SelectionChanged" Grid.ColumnSpan="2">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="Customer Name"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding CarName}" Header="Car Brand"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding CarType}" Header="Car type"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding PlateNumber}" Header="Plate Number"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Status}" Header="Status"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding IntakeDate}" Header="Date"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding ProblemDescip}" Header="ProblemDescip"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Window>

@@ -10,6 +10,9 @@ namespace OfficeClient
 {
     public class ValidateFields
     {
+        public ValidateFields()
+        {
+        }
 
         public static bool FieldsNotEmpty(string customerName, string carName, string carType, string plateNumber, string problemDescription)
         {
@@ -62,6 +65,7 @@ namespace OfficeClient
             validPlate = check.IsMatch(platenum);
             return validPlate;
         }
+
 
     }
 }

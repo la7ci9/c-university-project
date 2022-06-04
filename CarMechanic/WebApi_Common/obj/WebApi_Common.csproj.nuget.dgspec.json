@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lacos\\source\\project\\CarMechanic\\WebApi_Common\\WebApi_Common.csproj": {}
+    "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\WebApi_Common\\WebApi_Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lacos\\source\\project\\CarMechanic\\WebApi_Common\\WebApi_Common.csproj": {
+    "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\WebApi_Common\\WebApi_Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\WebApi_Common\\WebApi_Common.csproj",
+        "projectUniqueName": "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\WebApi_Common\\WebApi_Common.csproj",
         "projectName": "WebApi_Common",
-        "projectPath": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\WebApi_Common\\WebApi_Common.csproj",
-        "packagesPath": "C:\\Users\\Lacos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lacos\\source\\project\\CarMechanic\\WebApi_Common\\obj\\",
+        "projectPath": "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\WebApi_Common\\WebApi_Common.csproj",
+        "packagesPath": "C:\\Users\\xxcre\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio\\Project\\c-university-project\\CarMechanic\\WebApi_Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lacos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xxcre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

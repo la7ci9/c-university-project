@@ -24,7 +24,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="27,290,0,0" TextWrapping="Wrap" Foreground="White"
                    FontFamily="Lucida Sans" VerticalAlignment="Top"><Run Language="hu-hu" Text="Problem description:"/></TextBlock>
 
-        <TextBlock HorizontalAlignment="Left" Margin="581,38,0,0" TextWrapping="Wrap"  Foreground="White"
+        <TextBlock HorizontalAlignment="Left" Margin="573,38,0,0" TextWrapping="Wrap"  Foreground="White"
                    FontFamily="Lucida Sans" FontSize="20" VerticalAlignment="Top"><Run Language="hu-hu" Text="Recorded Works"/></TextBlock>
 
         <TextBox x:Name="CustomerName" HorizontalAlignment="Left" Margin="27,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
@@ -37,18 +37,7 @@
         <Button x:Name="EditButton" Content="EDIT" Background="#01de01" HorizontalAlignment="Left" FontFamily="Lucida Sans" Margin="237,241,0,0" VerticalAlignment="Top" Height="22" Width="43" Click="EditWork_Click"/>
         <Button x:Name="DeleteButton" Content="DELETE" Background="red" HorizontalAlignment="Left" FontFamily="Lucida Sans" Margin="233,372,0,0" VerticalAlignment="Top" Height="30" Width="51" Click="DeleteWork_Click"/>
 
-        <DataGrid Name="WorkListView" HorizontalAlignment="Left" Height="430" Margin="340,67,0,0" VerticalAlignment="Top" Width="639" SelectionChanged="DataGrid_SelectionChanged">
-            <DataGrid.Columns>
-                <DataGridTextColumn x:Name="cusName" Header="Customer Name" Width="110" Binding="{Binding _customerName}"/>
-                <DataGridTextColumn x:Name="carName" Header="Car name" Width="100" Binding="{Binding _customerName}"/>
-                <DataGridTextColumn x:Name="carType" Header="Car type" Width="100" Binding="{Binding _customerName}"/>
-                <DataGridTextColumn x:Name="plateNum" Header="Plate number" Width="110" Binding="{Binding _customerName}"/>
-                <DataGridTextColumn x:Name="status" Header="Status" Width="100" Binding="{Binding _customerName}"/>
-                <DataGridTextColumn x:Name="date" Header="Date" Width="105" Binding="{Binding _customerName}"/>
-                
-            </DataGrid.Columns>
-        </DataGrid>
-
+        <ListView x:Name="WorkListView"  HorizontalAlignment="Left" Height="430" Margin="338,67,0,0" VerticalAlignment="Top" Width="627" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="ListView_SelectionChanged"/>
 
     </Grid>
 </Window>

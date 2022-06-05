@@ -4,12 +4,14 @@ namespace OfficeClient.Test
     [TestClass]
     public class ValidateFieldsTests
     {
+        
+        //nem sikerült referenciaként megadni a teszteli kívánt osztályt
         [TestMethod]
         public void ValidateName_Test_IsFalse()
         {
             var validatfields = new ValidateFields();
                 
-            var validatename = validatfields.ValidateName("Kiss L�szl�9");
+            var validatename = validatfields.ValidateName("Kiss László9");
 
             Assert.IsFalse(validatename);
         }
